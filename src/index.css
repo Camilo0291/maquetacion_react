@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #e1e1e1;
+  height: 100px;
+  border: 1px solid rgb(152, 149, 149);
+}
+
+.logo {
+  background-color: #55679c;
+  width: 320px;
+  height: 100%;
+  margin-right: 15px;
+  padding-right: 22px;
+}
+
+.nav {
+  list-style: none;
+  padding: 10px 180px;
+  display: flex;
+  gap: 15px;
+  background-color: #55679c;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: #55679c;
+  padding: 10px 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+.gallery-container {
+  background-color: #55679c;
+  padding: 50px;
+  padding-left: 36px;
+  margin-top: 5px;
+  height: 50%;
+  width: 22%;
+  position: absolute;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #55679c;
+  padding: 10px 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 27px;
+  border: 1px solid rgb(152, 149, 149);
+  margin-right: 20px;
+  margin-left: -10px;
+}
+
+.gallery-title {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transform: translateX(-16%);
+  font-size: 18px;
+  color: white;
+}
+
+.contenedores {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 5px;
+  padding: 2px;
+}
+
+.contenedor {
+  width: 69.8%;
+  height: 178px;
+  border: 1px solid rgb(152, 149, 149);
+  box-sizing: border-box;
+  margin-bottom: 22px;
+}
+
+.titulo {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
